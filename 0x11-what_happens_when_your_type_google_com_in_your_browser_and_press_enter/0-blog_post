@@ -1,0 +1,32 @@
+Blog Post URL: Understanding the Journey of a Web Request
+Blog Post URL: [Understanding the Journey of a Web Request](https://medium.com/@yourusername/understanding-the-journey-of-a-web-request-from-typing-to-rendering)
+
+In today's digital age, the act of typing a URL into your browser and pressing Enter seems like a simple action. However, behind the scenes, a complex series of events unfolds to fetch the requested webpage and render it on your screen. In this blog post, we will unravel the journey of a web request from the moment you type "https://www.google.com" into your browser until the webpage is displayed.
+
+1. DNS Request:
+   When you type a URL into your browser, the first step is to translate the human-readable domain name (e.g., www.google.com) into an IP address that the computer can understand. This process is known as DNS (Domain Name System) resolution. Your computer sends a DNS request to a DNS server, which returns the corresponding IP address for the requested domain.
+
+2. TCP/IP:
+   Once the IP address is obtained, the browser establishes a TCP (Transmission Control Protocol) connection with the server hosting the website. TCP ensures reliable data transmission by breaking the data into packets, sending them over the internet, and reassembling them in the correct order at the destination.
+
+3. Firewall:
+   As the data packets traverse the internet, they may encounter firewalls, which act as barriers to unauthorized access and protect the network from malicious activities. Firewalls inspect incoming and outgoing traffic, enforcing security policies to allow or block certain types of data packets based on predefined rules.
+
+4. HTTPS/SSL:
+   In the case of HTTPS (Hypertext Transfer Protocol Secure) websites like Google, an additional layer of security is added through SSL (Secure Sockets Layer) encryption. SSL certificates authenticate the identity of the website and establish an encrypted connection between the browser and the server, ensuring that the data exchanged remains confidential and tamper-proof.
+
+5. Load-Balancer:
+   Large-scale websites like Google often employ load balancers to distribute incoming web traffic across multiple servers. Load balancers optimize resource utilization, improve website performance, and ensure high availability by evenly distributing the workload among servers based on factors like server health and current traffic load.
+
+6. Web Server:
+   After passing through the load balancer, the web request reaches the appropriate web server hosting the requested webpage. The web server processes the request, retrieves the necessary files (HTML, CSS, JavaScript, etc.), and generates a response to send back to the browser.
+
+7. Application Server:
+   In some cases, the web server may need to interact with an application server to process dynamic content or execute server-side scripts. The application server performs computations, retrieves data from databases, and generates dynamic content before sending it back to the web server for inclusion in the response.
+
+8. Database:
+   If the requested webpage requires data from a database (e.g., search results, user profiles), the web server communicates with the database server to retrieve the necessary information. The database server processes the query, retrieves the requested data, and returns it to the application server for further processing.
+
+By the time the entire process completes, the browser has received all the necessary resources (HTML, CSS, JavaScript, images, etc.) to render the webpage. The browser then parses the HTML, applies CSS styles, executes JavaScript code, and renders the webpage on your screen, ready for you to interact with.
+
+In conclusion, the journey of a web request involves a intricate dance of technologies working together seamlessly to deliver the desired content to users around the world. Understanding this journey not only deepens our appreciation for the complexities of the web, but also equips us with valuable insights into optimizing web performance and troubleshooting issues when things go awry.Title: U
